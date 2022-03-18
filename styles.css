@@ -36,3 +36,38 @@ input {
 img {
 	max-width: 300px;
 }
+
+.me {
+	color: blue;
+}
+#greeting {
+	text-transform: uppercase;
+	color: blue;
+	font-size: 20px;
+}
+#sub {
+	display: flex;
+	color: red;
+}
+
+
+.favecolor {
+	background-color: yellow;
+	height: 70px;
+	width: 200px;
+	font-size: 20px;
+	
+}
+
+.faveplace {
+	background-color: yellow;
+	height: 70px;
+	width: 200px;
+	font-size: 20px;
+}
+.faveritual {
+	background-color: yellow;
+	height: 70px;
+	width: 200px;
+	font-size: 20px;
+}

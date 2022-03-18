@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+  <head>
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ol>
+        <li class="crumb"><a href="./home.html">Home</a></li>
+        <li class="crumb"><a href="./profile.html">Profile</a></li>
+        <li class="crumb"><a href="./about.html">About</a></li>
+        <li class="crumb"><a href="./neighborhood.html">Neighborhood</a></li>
+      </ol>
+    </nav>
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    <content>
+      <h1>Welcome to this little website.</h1>
+      <p>Hello World!</p>
+      <p>Hello User! Welcome to our page!</p>
+      <!-- insert hello world here -->
+      <ul>
+        <li>You're a smart person for coming to our site</li>
+        <li>You're a smart person for doing your bootcamp at Devmountain</li>
+        <li>You're a smart person in general!</li>
+      </ul>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>Hello World!</p>
-		<!-- insert hello world here -->
+      <img id="rubberDuck"
+        src="https://images.unsplash.com/photo-1620447789324-fd300c136721?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cnViYmVyJTIwZHVja3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      />
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+      <h2>Contact Us</h2>
+      <form id="contact">
+        Your name:
+        <input type="text" />
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
+        Message:
+        <input type="textarea" />
+        How did you hear about us?
+        <input type="checkbox" id="google" />
+        <lable for="google">Google</lable><br>
+        <input type="checkbox" id="afriend" />
+        <lable for="afriend">A friend</lable><br>
+        <input type="checkbox"  id="other"/>
+        <lable for="other">Other</lable><br>
+        <input type="submit" />	
+      </form>
+    </content>
 
-			Message:
-			<input type="textarea">
-
-			<input type="submit">
-
-
-		</form>
-
-	</content>
-
-
-	<script src="about.js"></script>
-
-</body>
+    <script src="about.js"></script>
+  </body>
 </html>
